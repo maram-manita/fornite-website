@@ -10,13 +10,14 @@ function App() {
   const [query, setQuery] = useState("");
   return (
     <div className="app">
-      <Nav
+      <span>hello world</span>
+      {/* <Nav
         icon={<FontAwesomeIcon icon={faSearch} />}
         query={query}
         setQuery={setQuery}
       />
       <h1 className="home-header">Featured Bundles</h1>
-      <CardList query={query} />
+      <CardList query={query} /> */}
     </div>
   );
 }
